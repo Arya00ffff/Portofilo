@@ -26,5 +26,7 @@
     repeating-linear-gradient(to bottom, #000 0 1px, transparent 1px 48px);
 
   background-image: radial-gradient(circle at 50% 50%, #292636 60%, #4b4069 100%);
+
 }
+
 </style>

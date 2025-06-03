@@ -17,3 +17,6 @@ body{
 body.light-mode button{
   color: black;
 }
+body.light-mode #container {
+  background-image: radial-gradient(circle at 50% 50%, #e0e9f2 60%, #c3d4f0 100%);
+}
