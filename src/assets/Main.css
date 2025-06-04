@@ -1,0 +1,125 @@
+.main-content {
+  transform: translateY(100vh);
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.content-slide-up {
+  transform: translateY(0);
+}
+
+.row-center {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  margin-left: 20vw;
+}
+
+.right {
+  margin-right: 20vw;
+}
+
+.bunnyPic{
+  margin-left: 19.5vw;
+  margin-top: 10vh;
+  border-radius: 5px;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-text {
+  margin-left: 3vw;
+  margin-bottom: 0vh;
+}
+
+.trans-gradient-text {
+  font-size: 70px;
+  font-weight: bold;
+  background: linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.gay-gradient-text {
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #FF0018, /* Red */
+    #FFA52C, /* Orange */
+    #f5df14, /* Yellow */
+    #008018, /* Green */
+    #0000F9, /* Blue */
+    #86007D  /* Violet */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.icon-row {
+  display: flex;
+  gap: 16px; 
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.linkdin {
+  color: #bae6fd;
+}
+.linkdin:hover {
+  color: #0072B1;
+}
+.light-mode .linkdin{
+  color: #0385c7;
+}
+.light-mode .linkdin:hover{
+  color:#065885;
+}
+.github {
+color: #f0f6fc;
+}
+.github:hover {
+  color: #333;
+}
+.light-mode .github{
+  color: black;
+}
+.light-mode .github:hover{
+  color: #333;
+}
+.email{
+  color: #de5143;
+}
+.email:hover{
+  color:#b04336;
+}
+.telegram{
+  color:#24b3de;
+}
+.telegram:hover{
+  color:#24A1DE;
+}
+.career-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30vh; 
+      background-color: #19181a; 
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      box-sizing: border-box;
+    }
