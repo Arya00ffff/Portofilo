@@ -2,6 +2,7 @@
 import LoadingAnimation from './LoadingAnimation.vue'
 import Background from './Background.vue'
 import LightMode from './LightMode.vue'
+import Skills from './Skills.vue'
 import '@/assets/Main.css'
 import { ref } from 'vue'
 
@@ -34,7 +35,7 @@ function handleAnimationStart() {
     <div class="image-row">
       <img src="@/assets/arya.png" alt="Arya's Avatar" height="480" width="347" class="bunnyPic"/>
       <div class="image-text">
-        <h3 style="font-size: 25px; font-weight: 500;position: relative; bottom: -40px;">I'm Arya! , and I like </h3>
+        <h3 style="font-size: 25px; font-weight: 500;position: relative; bottom: -40px;">I'm Arya, and I like </h3>
         <h1 style="font-size: 70px;">
           Building pixel-perfect<br>
           <span :class="isLightMode ? 'gay-gradient-text' : 'trans-gradient-text'">Interactive</span> apps🌈
@@ -60,7 +61,10 @@ function handleAnimationStart() {
       <h1 style="text-align: center; margin-top: 70px; margin-bottom: 250px;">Career</h1>
       <h3 style="text-align: center;">one day ill fill this out</h3>
     </div>
-    <div> more stuff</div>
+    <div> 
+      <h1 style="text-align: center; margin-top: 70px; margin-bottom: 30px;">Skills</h1>
+    </div>
+      <Skills />
   </div>
 </template>
 
