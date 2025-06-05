@@ -3,6 +3,7 @@ import LoadingAnimation from './LoadingAnimation.vue'
 import Background from './Background.vue'
 import LightMode from './LightMode.vue'
 import Skills from './Skills.vue'
+import Career from './Career.vue'
 import '@/assets/Main.css'
 import { ref } from 'vue'
 
@@ -60,11 +61,15 @@ function handleAnimationStart() {
     <div class="career-container">
       <h1 style="text-align: center; margin-top: 70px; margin-bottom: 250px;">Career</h1>
       <h3 style="text-align: center;">one day ill fill this out</h3>
+      <Career />
     </div>
     <div> 
       <h1 style="text-align: center; margin-top: 70px; margin-bottom: 30px;">Skills</h1>
     </div>
-      <Skills />
+   <Skills />
+    <div class="footer">
+      <p>© 2024 Arya. All rights reserved.</p>
+    </div>
   </div>
 </template>
 
