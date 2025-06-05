@@ -67,9 +67,10 @@ function handleAnimationStart() {
       <h1 style="text-align: center; margin-top: 70px; margin-bottom: 30px;">Skills</h1>
     </div>
    <Skills />
-    <div class="footer">
+    
+  </div>
+  <div class="footer">
       <p>© 2024 Arya. All rights reserved.</p>
     </div>
-  </div>
 </template>
 
