@@ -110,7 +110,7 @@ const skills = [
      :style="{ backgroundColor: skill.color }">
 
       <div class="icon-area">
-        <img :src="`/src/assets/svg/${skill.svg}`" :alt="skill.name" width="36" height="36" />
+        <img :src="`/Portofilo/svg/${skill.svg}`" :alt="skill.name" width="36" height="36" />
       </div>
       <div class="text-area">
         <div class="skill-header">{{ skill.name }}</div>
