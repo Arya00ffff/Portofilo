@@ -27,7 +27,7 @@ const skills = [
   {
     name: 'Vue',
     desc: 'JavaScript Framework',
-    svg: 'Vue.svg',
+    svg: 'test.svg',
     color: 'rgba(65, 184, 131, 0.2)'
   },
   {
