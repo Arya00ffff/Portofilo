@@ -29,14 +29,14 @@ import { ref } from 'vue';
 
 const timeline = ref([
   {
-    year: '2023',
-    duration: '2 years',
-    title: 'Junior Full Stack Developer',
-    industry: 'Website Design',
-    location: 'Iran',
-    description: 'Worked with a small company to deisgn and create websites for coustuomers.',
+    year: '2026',
+    duration: 'Present',
+    title: 'Student',
+    industry: 'University',
+    location: 'Germany, Berlin',
+    description: 'Studying computer Science in IU International University of Applied Sciences',
 
-    tags: ['WordPress', 'PHP', 'JavaScript','CSS']
+    tags: ['Math', 'English', 'German', 'Team building']
   },
   {
     year: '2023',
@@ -47,6 +47,16 @@ const timeline = ref([
     description: 'Studying computer Enginering in Eqbal University of Mashhad',
 
     tags: ['Math', 'Physics', 'C++', 'Java']
+  },
+   {
+    year: '2022',
+    duration: '3 years',
+    title: 'Full Stack Developer',
+    industry: 'Website Design',
+    location: 'Iran',
+    description: 'Worked with a company to deisgn and create websites for coustuomers.',
+
+    tags: ['WordPress', 'PHP', 'JavaScript','CSS']
   },
   {
     year: '2020',

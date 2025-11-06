@@ -1,17 +1,21 @@
 <template>
 <div class="icon-row">
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/seyed-erfan-malekjafarian-248863344/">
             <i class="fa-brands fa-linkedin linkdin" ></i>  
           </a>
           <a href="http://github.com/arya00ffff/">
             <i class="fa-brands fa-github github"></i>
           </a>
-          <a href="mailto:arya@gmail.com">
+          <a href="mailto:abd.m.abd.1356@gmail.com">
             <i class="fa-regular fa-envelope email" ></i> 
           </a>
+          <a href="https://t.me/A6y78bb">
           <i class="fa-brands fa-telegram telegram"></i>
+          </a>
+          <i class="fa-solid fa-file"></i>
+
         </div>
-</template>
+</template>z
 <style scoped >
 .icon-row {
   display: flex;
